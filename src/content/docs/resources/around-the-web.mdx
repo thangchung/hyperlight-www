@@ -1,0 +1,119 @@
+---
+title: Hyperlight Around the Web
+description: Talks, articles, documentation, and integrations from across the Hyperlight ecosystem.
+---
+
+import { CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+Explore talks, articles, documentation, and integrations showing how Hyperlight is being used across the broader
+cloud-native and agentic application ecosystem.
+
+## Talks and sessions
+
+<CardGrid>
+  <LinkCard
+    title="Microsoft Build 2026 session OD853"
+    href="https://build.microsoft.com/en-US/sessions/OD853?source=/speakers/1768245294609build26-1774285003250001pqCF"
+    description="A Microsoft Build 2026 session featuring Hyperlight and secure agent infrastructure."
+  />
+  <LinkCard
+    title="Running Wasmtime in hardware-isolated microenvironments"
+    href="https://www.youtube.com/watch?v=jwta07eFEJE"
+    description="A WasmCon 2026 talk about combining Wasmtime with Hyperlight for dual-layer isolation."
+  />
+  <LinkCard
+    title="Hyperlight at KubeCon NA 2024"
+    href="https://youtu.be/f8ornY7h2KE?feature=shared&t=290"
+    description="A KubeCon keynote demonstration of Hyperlight's sub-millisecond micro-VM execution."
+  />
+  <LinkCard
+    title="Re-Engineering Microsoft's Hyperlight in Rust"
+    href="https://rustconf2025.wpenginepowered.com/schedule"
+    description="A RustConf 2025 session covering the design and implementation of Hyperlight in Rust."
+  />
+  <LinkCard
+    title="Debugging WebAssembly inside Hyperlight"
+    href="https://wasm.io/sessions/"
+    description="A Wasm I/O 2026 session about debugging WebAssembly across Hyperlight's VM boundary."
+  />
+  <LinkCard
+    title="Hands-On with Hyperlight and Wasm"
+    href="https://wasm.io/sessions/"
+    description="A Wasm I/O 2026 workshop for building and running WebAssembly workloads with Hyperlight."
+  />
+</CardGrid>
+
+## Articles and case studies
+
+<CardGrid>
+  <LinkCard
+    title="Harness-driven agents: Secure podcast pipeline in a Hyperlight microVM sandbox"
+    href="https://techcommunity.microsoft.com/blog/AzureDevCommunityBlog/harness-driven-agents-secure-podcast-pipeline-in-hyperlight-microvm-sandbox/4525512"
+    description="A practical agent workflow that uses Hyperlight micro-VMs to isolate generated code."
+  />
+  <LinkCard
+    title="Microsoft Build 2026: Agent harness, making agents"
+    href="https://www.linkedin.com/pulse/microsoft-build-2026-agent-harness-making-agents-bruce-wang-2mopc/?trackingId=ZEU8sThcTL23mImwF0jCcg%3D%3D"
+    description="A perspective on agent harnesses and the agent infrastructure presented at Microsoft Build 2026."
+  />
+  <LinkCard
+    title="Introducing Azure Container Apps sandboxes"
+    href="https://techcommunity.microsoft.com/blog/appsonazureblog/introducing-azure-container-apps-sandboxes-secure-infrastructure-for-agentic-wor/4524131"
+    description="An introduction to secure sandbox infrastructure for agentic workloads in Azure Container Apps."
+  />
+  <LinkCard
+    title="Securing Kubernetes AI agents"
+    href="https://thenewstack.io/securing-kubernetes-ai-agents/"
+    description="An exploration of isolation and security considerations for AI agents running on Kubernetes."
+  />
+  <LinkCard
+    title="Unikraft GSoC: Hyperlight platform"
+    href="https://unikraft.org/blog/2026-06-19-unikraft-gsoc-hyperlight-platform"
+    description="The Unikraft project's work to add Hyperlight as a platform for lightweight unikernels."
+  />
+  <LinkCard
+    title="Hyperlight Nanvix: POSIX support for Hyperlight micro-VMs"
+    href="https://opensource.microsoft.com/blog/2026/1/28/hyperlight-nanvix-bringing-multi-language-support-for-extremely-fast-hardware-isolated-micro-vms"
+    description="How Nanvix brings POSIX APIs and broader language support to Hyperlight micro-VMs."
+  />
+  <LinkCard
+    title="Hyperlight: Debugging hardware-protected guests"
+    href="https://opensource.microsoft.com/blog/2025/07/14/hyperlight-debugging-hardware-protected-guests"
+    description="A guide to debugging Hyperlight guests at runtime with GDB and LLDB."
+  />
+  <LinkCard
+    title="Hyperlight Wasm: Fast, secure, and OS-free"
+    href="https://opensource.microsoft.com/blog/2025/03/26/hyperlight-wasm-fast-secure-and-os-free"
+    description="An introduction to running WebAssembly components with layered Wasm and micro-VM isolation."
+  />
+  <LinkCard
+    title="Build a Hyperlight C guest to securely execute JavaScript"
+    href="https://opensource.microsoft.com/blog/2025/03/10/build-a-hyperlight-c-guest-to-securely-execute-javascript"
+    description="A tutorial for running QuickJS inside a C guest protected by a Hyperlight micro-VM."
+  />
+  <LinkCard
+    title="Hyperlight: Achieving 0.0009-second micro-VM execution time"
+    href="https://opensource.microsoft.com/blog/2025/02/11/hyperlight-creating-a-0-0009-second-micro-vm-execution-time"
+    description="A walkthrough of Hyperlight's architecture and sub-millisecond micro-VM execution."
+  />
+  <LinkCard
+    title="Introducing Hyperlight"
+    href="https://opensource.microsoft.com/blog/2024/11/07/introducing-hyperlight-virtual-machine-based-security-for-functions-at-scale"
+    description="The original introduction to Hyperlight's architecture, goals, and Rust API."
+  />
+</CardGrid>
+
+## Documentation and integrations
+
+<CardGrid>
+  <LinkCard
+    title="Microsoft Agent Framework: Code acting in C#"
+    href="https://learn.microsoft.com/en-us/agent-framework/agents/code_act?pivots=programming-language-csharp#get-started"
+    description="Microsoft Agent Framework documentation for running code-acting agents with C#."
+  />
+  <LinkCard
+    title="urunc hypervisor support: Hyperlight"
+    href="https://urunc.io/hypervisor-support/#hyperlight"
+    description="Documentation for using Hyperlight as a supported hypervisor with the urunc container runtime."
+  />
+</CardGrid>

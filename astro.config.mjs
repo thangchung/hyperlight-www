@@ -24,6 +24,7 @@ export default defineConfig({
 					label: 'Resources',
 					items: [
 						{ slug: 'resources/community' },
+						{ slug: 'resources/around-the-web' },
 					],
 				},
 				{
